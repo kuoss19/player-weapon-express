@@ -1,4 +1,4 @@
-import Weapon from "./weapon.js";
+import Weapon from "./weapon";
 
 export default class Knife extends Weapon {
   constructor() {

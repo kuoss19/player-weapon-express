@@ -1,4 +1,4 @@
-import Weapon from "./Weapon.js.js";
+import Weapon from "./weapon";
 
 export default class Gun extends Weapon {
   constructor() {

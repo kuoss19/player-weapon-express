@@ -1,5 +1,5 @@
-import Gun from "./Gun.js";
-import Knife from "./Knife.js";
+import Gun from "./gun";
+import Knife from "./knife";
 
 export default class Player {
   constructor(name, power, hp) {

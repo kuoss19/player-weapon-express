@@ -1,4 +1,4 @@
-import Player from "../Model/Player.js";
+import Player from "../models/player";
 
 let p1 = new Player("재환", 5, 300);
 p1.setGun();
