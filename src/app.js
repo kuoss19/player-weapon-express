@@ -1,6 +1,6 @@
 import express from "express";
 import ejs from "ejs";
-
+import opn from "opn";
 import index, { battle } from "./routes";
 
 const app = express();
@@ -21,3 +21,5 @@ app.use("/", battle);
 app.listen(8081,()=>{
     console.log("Server Running on 8081 port");
 });
+
+opn("http://localhost:8081");

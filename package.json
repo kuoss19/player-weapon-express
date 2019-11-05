@@ -13,7 +13,8 @@
   "type": "module",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "opn": "^6.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.6.3",
