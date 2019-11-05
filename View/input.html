@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Player Data Input</title>
+</head>
+<body>
+
+<form method="post" action="/battle">
+<table border=1>
+<tr align=center>
+	<td></td>
+	<td>Player1</td>
+	<td>Player2</td>
+</tr>
+<tr>
+	<td>이름</td>
+	<td><input type="text" name="Name1"></td>
+	<td><input type="text" name="Name2"></td>
+</tr>
+<tr>
+	<td>Power</td>
+	<td><input type="text" name="Power1"></td>
+	<td><input type="text" name="Power2"></td>
+</tr>
+<tr>
+	<td>Hp</td>
+	<td><input type="text" name="Hp1"></td>
+	<td><input type="text" name="Hp2"></td>
+</tr>
+<tr>
+	<td>Weapon</td>
+	<td><input type="radio" name="w1" value="Gun">Gun <input type="radio" name="w1" value="Knife">Knife <input type="radio" name="w1" value="null">No Weapon</td>
+	<td><input type="radio" name="w2" value="Gun">Gun <input type="radio" name="w2" value="Knife">Knife <input type="radio" name="w2" value="null">No Weapon</td>
+</tr>
+<tr align=center>
+	<td colspan=3><input type="submit" value="시작!"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
